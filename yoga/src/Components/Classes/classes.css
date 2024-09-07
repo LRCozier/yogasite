@@ -1,0 +1,19 @@
+.classes {
+    padding: 50px 20px;
+    background-color: #242424;
+    text-align: center;
+  }
+  
+  .class-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .class-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #242424;
+  }
+  
