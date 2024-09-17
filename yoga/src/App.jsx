@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Hero from './Pages/Hero/hero'
-import Header from './Components/Header/header';
+import Hero from './Pages/Hero/hero';
 import Footer from './Components/Footer/Footer';
-import './App.css'
-import AboutMe from './Pages/About/about'
-import Classes from './Pages/Classes/classes'
+import './App.css';
+import AboutMe from './Pages/About/about';
+import Classes from './Pages/Classes/classes';
+import Header from './Components/Header/header';
 
 function App() {
 
   return (
     <Router>
       <div className='App'>
-        <Header />
+        <Header/>
         <Routes>
           <Route path='/' element={<Hero/>} />
           <Route path='/about' element={<AboutMe/>} />
