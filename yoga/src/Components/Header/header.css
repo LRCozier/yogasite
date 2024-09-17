@@ -9,10 +9,6 @@
     justify-content: space-between;
   }
   
-  .logo {
-    font-size: 24px;
-  }
-  
   .nav {
     display: flex;
     list-style: none;
