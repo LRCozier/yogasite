@@ -13,6 +13,9 @@ body{
   font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
   font-weight: normal;
   line-height: 1.5;
+  scroll-behavior: smooth;
+  background-color: #f0f4f7;
+  color: #333333;
 }
 
 section{
@@ -24,8 +27,16 @@ section{
   text-align: center;    
 }
 
-section-content{
-  max-width: 100%;
+p {
+  line-height: 1.6;
+  margin: 0 0 15px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /*MOBILE STYLES*/
