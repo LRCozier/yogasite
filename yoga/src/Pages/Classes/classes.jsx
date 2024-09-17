@@ -12,6 +12,7 @@ const Classes = () => {
   return (
     <section className="classes" id='classes'>
       <h2>Our Classes</h2>
+      <img src='bridge.jpg' alt='Yoga With Claire bridge pose' className='bridgePose' /> 
       <div className="class-list">
         {classList.map((yogaClass, index) => (
           <div className="class-item" key={index}>
@@ -20,6 +21,7 @@ const Classes = () => {
             <p><strong>{yogaClass.time}</strong></p>
           </div>
         ))}
+        <img src='headstand2.jpg' alt='Yoga With Claire headstand pose' className='headstand'/>
       </div>
     </section>
   );

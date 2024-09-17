@@ -8,6 +8,7 @@ const AboutMe = () => {
         <section>
             <div className="container">
         <h2>About Me</h2>
+        <img src="yogapose.jpg" alt="Yoga With Claire Yoga Pose" className="yogaPose" />
         <p>Yoga is not merely a practice; it is a way of life—a profound journey into the depths of the self. It is the art of connecting the body, mind, and spirit, creating harmony where there is discord, and balance where there is imbalance. In a world that often pulls us in a thousand directions, yoga is the grounding force that brings us back to center, reminding us of who we truly are beyond the noise and chaos.
 
 As a yoga teacher, I believe passionately that yoga is a transformative tool that goes far beyond the physical postures we perform on the mat. It teaches us to breathe deeply and fully, to move with intention, and to live with mindfulness. Yoga invites us to explore our inner landscapes, to confront our fears, our doubts, and our limitations with compassion and courage.
