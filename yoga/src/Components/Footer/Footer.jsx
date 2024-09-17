@@ -11,6 +11,7 @@ const Footer = () => {
             <div className='socials'>
             <SocialIcon network='instagram' />
             <SocialIcon network='facebook' />
+            <p>Designed & Built by Luke Rudderham-Cozier</p>
             </div>
         </footer>
         </>
