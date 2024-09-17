@@ -15,7 +15,9 @@ const Hero = () => {
           <Link to='/classes'>
           <button className="cta-button">Explore Classes</button>
           </Link>
-        <button className="cta-button">Yoga In Education</button>
+          <Link to='/yogaeducation'>
+          <button className="cta-button">Yoga In Education</button>
+          </Link>
         </div>
       </div>
     </section>
