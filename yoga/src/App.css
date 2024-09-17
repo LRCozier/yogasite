@@ -5,7 +5,12 @@
   text-align: center;
 }
 
-section .container {
+body{
+  margin: 0;
+  padding:0;
+}
+
+section{
   display: flex;
   flex-direction: column; 
   align-items: center;    
@@ -13,3 +18,36 @@ section .container {
   height: 100vh;         
   text-align: center;    
 }
+
+section-content{
+  max-width: 100%;
+}
+
+/*MOBILE STYLES*/
+
+
+
+/*TABLET STYLES*/
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .button-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .cta-button {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+  }
+}
+
+
+/*DESKTOP STYLES*/

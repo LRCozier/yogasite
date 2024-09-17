@@ -1,5 +1,6 @@
 // src/components/Hero.js
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './hero.css';
 
 const Hero = () => {
@@ -11,7 +12,9 @@ const Hero = () => {
         <img src="/yogahero.jpg" alt="Yoga With Claire Hero Image" className="heroImage" />
         <p>Unite Your Body, Spirit & Mind</p>
         <div className='button-container'>
-        <a href='#classes'><button className="cta-button">Explore Classes</button></a>
+          <Link to='/classes'>
+          <button className="cta-button">Explore Classes</button>
+          </Link>
         <button className="cta-button">Yoga In Education</button>
         </div>
       </div>
