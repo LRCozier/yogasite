@@ -1,3 +1,8 @@
+.hero{
+  flex-grow: 1;
+  padding-bottom: 50px;
+}
+
 .hero-image {
   max-width: auto;
   height: auto;
