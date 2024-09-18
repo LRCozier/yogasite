@@ -14,6 +14,7 @@ const Header = () =>{
         <>
         <div>
             <header>
+                <div className="navbar-container">
                 <nav className={`nav ${isOpen ? 'nav-open' : ''}`}> {/*NAVBAR FOR TABLET/DESKTOP DISPLAY*/}
                     <ul className="navbar-links">
                         <li><Link to="/">Home</Link></li>
@@ -27,6 +28,7 @@ const Header = () =>{
                  <div className={`bar ${isOpen ? 'bar-open' : ''}`}></div>
                  <div className={`bar ${isOpen ? 'bar-open' : ''}`}></div>
                  <div className={`bar ${isOpen ? 'bar-open' : ''}`}></div>
+                </div>
                 </div>
             </header>
         </div></>
