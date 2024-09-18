@@ -19,6 +19,13 @@ body{
   color: #ffffff;
 }
 
+.app{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
 section{
   display: flex;
   flex-direction: column; 
@@ -45,6 +52,12 @@ p {
 
 /*MOBILE STYLES*/
 
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+    max-width: 100%;
+  }
+}
 
 
 /*TABLET STYLES*/
