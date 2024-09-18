@@ -14,6 +14,9 @@ const Header = () =>{
         <>
         <div>
             <header>
+                <div className="logo-container">
+                    <p>Yogi Claire</p>
+                </div>
                 <div className="navbar-container">
                 <nav className={`nav ${isOpen ? 'nav-open' : ''}`}> {/*NAVBAR FOR TABLET/DESKTOP DISPLAY*/}
                     <ul className="navbar-links">

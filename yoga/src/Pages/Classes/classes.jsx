@@ -11,7 +11,7 @@ const Classes = () => {
 
   return (
     <section className="classes" id='classes'>
-      <h2>Our Classes</h2>
+      <h2>My Classes</h2>
       <img src='bridge.jpg' alt='Yoga With Claire bridge pose' className='bridgePose' /> 
       <div className="class-list">
         {classList.map((yogaClass, index) => (
