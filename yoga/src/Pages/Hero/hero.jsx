@@ -9,7 +9,6 @@ const Hero = () => {
     <section className="hero">
       <div className="container">
         <h1>Yoga With Claire</h1>
-        <img src="/yogahero.jpg" alt="Yoga With Claire Hero Image" className="heroImage" />
         <p>Unite Your Body, Spirit & Mind</p>
         <div className='button-container'>
           <Link to='/classes'>
