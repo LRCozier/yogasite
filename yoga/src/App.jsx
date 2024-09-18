@@ -5,6 +5,7 @@ import './App.css';
 import AboutMe from './Pages/About/about';
 import Classes from './Pages/Classes/classes';
 import YogaInEducation from './Pages/Yoga In Education/yogaeducation';
+import Contact from './Pages/Contact/Contact';
 import Header from './Components/Header/header';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' element={<AboutMe/>} />
           <Route path='/classes' element={<Classes/>} />
           <Route path='/yogaeducation' element={<YogaInEducation/>} />
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
         <Footer/>
       </div>
