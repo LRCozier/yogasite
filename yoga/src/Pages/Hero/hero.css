@@ -7,7 +7,7 @@
   background-image: url('yogahero.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   color: #ffffff;
   text-align: center;
   position: relative;
